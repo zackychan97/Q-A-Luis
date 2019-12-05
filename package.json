@@ -1,0 +1,28 @@
+{
+  "name": "Q-A-Luis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackychan97/Q-A-Luis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackychan97/Q-A-Luis/issues"
+  },
+  "homepage": "https://github.com/zackychan97/Q-A-Luis#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  }
+}
