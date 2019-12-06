@@ -20,7 +20,11 @@ router.get('/:id', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    
+    const unitInformation = req.body;
+
+    const newUnits = [...units, unitInformation];
+
+    res.status(201).json(newUnits);
 })
 
 router.put('/:id', (req, res) => {
